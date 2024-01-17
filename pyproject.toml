@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "di-utils"
+version = "0.1.0"
+description = "Ferramentas para o cálculo de depósitos interbancários (DI) da B3."
+authors = ["renanmoretto <himynameisrenan@outlook.com>"]
+readme = "README.md"
+packages = [{include = "di_utils"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
